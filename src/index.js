@@ -46,12 +46,12 @@ const calculateRobotFinalPosition = () => {
                                     : initialXAxisPlateau
                                 break;
                             case 'South':
-                                initialYAxisPlateau = (initialYAxisPlateau < yAxisPlateau && initialYAxisPlateau > 1)
+                                initialYAxisPlateau = initialYAxisPlateau < yAxisPlateau && initialYAxisPlateau > 1
                                     ? initialYAxisPlateau - 1
                                     : initialYAxisPlateau
                                 break;
                             case 'West':
-                                initialXAxisPlateau = (initialXAxisPlateau < xAxisPlateau && initialXAxisPlateau > 1)
+                                initialXAxisPlateau = initialXAxisPlateau < xAxisPlateau && initialXAxisPlateau > 1
                                     ? initialXAxisPlateau - 1
                                     : initialXAxisPlateau
                                 break;
